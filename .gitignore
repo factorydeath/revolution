@@ -1,0 +1,68 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Databases, Runtime Locks & Data
+*.db
+*.db-shm
+*.db-wal
+*.lock
+.revolution.lock
+.noreply.lock
+users.db
+data/*
+!data/.gitkeep
+
+# Secrets & Environment Configurations
+.env
+.env.*
+configs/.env
+*.key
+*.pem
+
+# Proxies (Private Credentials)
+proxies.json
+proxies.txt
+configs/proxies.json
+configs/proxies.txt
+
+# Media & Runtime Caches
+pic/.media_cache.json
+tools/services_report.json
+
+# Logs & Diagnostics
+logs/*
+!logs/.gitkeep
+*.log
+bot.log
+
+# Temporary Dumps, Backups, Screenshots & Network Captures
+backups/
+configs/backups
+*.bak*
+screenshots/
+hars/
+
+# Workspace & Editor Artifacts
+AGENTS.md
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Explicitly Keep Example & Essential Files
+!.env.example
+!configs/.env.example
+!configs/proxies.json.example
+!configs/proxies.txt.example

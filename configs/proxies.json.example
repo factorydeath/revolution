@@ -1,0 +1,8 @@
+{
+  "RU": [
+    "socks5://username:password@194.67.197.89:9885"
+  ],
+  "UA": [
+    "socks5://username:password@193.32.155.91:9943"
+  ]
+}
